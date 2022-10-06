@@ -1,1 +1,1 @@
-worker: sh target/bin/workerBot
+worker: java -Dserver.port=$PORT $JAVA_OPTS -jar target/*.jar
